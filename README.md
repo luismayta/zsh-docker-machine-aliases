@@ -29,6 +29,12 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), install this p
 2. Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle luismayta/zsh-docker-machine-aliases` in a running zsh session.
 3. Enjoy!
 
+## Alias:
+
+This is a list of the available alias.
+
+* `dm`: short for docker-machine.
+* `dmenv`: Switch docker pointer to another host (dmenv host remote).
 
 ## License
 
