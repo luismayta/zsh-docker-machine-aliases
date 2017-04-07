@@ -1,11 +1,8 @@
-# Plugin Zsh zsh-docker-machine-aliases
+# zsh-docker-machine-aliases
 
-<span class="badges" align="center">
 [![Build Status](https://travis-ci.org/luismayta/zsh-docker-machine-aliases.svg)](https://travis-ci.org/luismayta/zsh-docker-machine-aliases)
-[![Stories in Ready](https://badge.waffle.io/luismayta/zsh-docker-machine-aliases.svg?label=ready&title=Ready)](http://waffle.io/luismayta/zsh-docker-machine-aliases)
 [![GitHub issues](https://img.shields.io/github/issues/luismayta/zsh-docker-machine-aliases.svg)](https://github.com/luismayta/zsh-docker-machine-aliases/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
-</span>
 
 
 ZSH plugin
@@ -48,8 +45,6 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Credits
 
 Made with love :heart: by luismayta
-
-<!-- Other -->
 
 [link-author]: https://github.com/luismayta
 [link-contributors]: contributors
