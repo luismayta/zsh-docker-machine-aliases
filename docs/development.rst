@@ -139,5 +139,5 @@ Before starting make sure you have:
    ``bash  λ bumplus -v ${VERSION}``
 5. Finish Releases:
    ``bash  λ git flow release finish ${VERSION}``
-5. Push releases:
+6. Push releases:
    ``bash  λ git push origin --tags``
