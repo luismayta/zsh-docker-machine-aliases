@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = Bot-Lannister
+SPHINXPROJ    = Zsh-Docker-Machine-Aliases
 SOURCEDIR     = .
 BUILDDIR      = _build
 
