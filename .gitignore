@@ -120,3 +120,4 @@ vendor/*
 *.tar.gz
 # Zappa
 bot-lannister-*-template*.json
+*.DS_Store
