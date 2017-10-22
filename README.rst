@@ -3,6 +3,15 @@ zsh-docker-machine-aliases
 
 |Build Status| |GitHub issues| |GitHub license|
 
+:Version: 0.0.1
+:Web: https://github.com/luismayta/zsh-docker-machine-aliases
+:Download: http://github.com/luismayta/zsh-docker-machine-aliases
+:Source: http://github.com/luismayta/zsh-docker-machine-aliases
+:Keywords: zsh-docker-machine-aliases
+
+.. contents:: Table of Contents:
+    :local:
+
 ZSH plugin
 
 Install
