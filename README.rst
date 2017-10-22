@@ -12,13 +12,27 @@ zsh-docker-machine-aliases
 .. contents:: Table of Contents:
     :local:
 
-ZSH plugin
+ZSH Alias for docker-machine
 
-Install
-=======
+Features
+--------
+
+* Task
+
+Dependencies
+------------
+
+List of applications:
+
+* `Python 3.6.1`_
+* `Docker`_
+* `Docker Compose`_
+
+Installation
+------------
 
 `oh-my-zsh <https://github.com/robbyrussell/oh-my-zsh>`__ users
----------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you're using
 `oh-my-zsh <https://gitub.com/robbyrussell/oh-my-zsh>`__, install this
@@ -34,7 +48,7 @@ plugin by doing the following:
 4. Open a new terminal and enjoy!
 
 `antigen <https://github.com/zsh-users/antigen>`__ users
---------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you're using `Antigen <https://github.com/zsh-lovers/antigen>`__,
 install this plugin by doing the following:
@@ -51,8 +65,8 @@ Alias:
 
 This is a list of the available alias.
 
--  ``dm``: short for docker-machine.
--  ``dmenv``: Switch docker pointer to another host (dmenv host remote).
+*  ``dm``: short for docker-machine.
+*  ``dmenv``: Switch docker pointer to another host (dmenv host remote).
 
 License
 -------
@@ -62,18 +76,30 @@ MIT
 Changelog
 ---------
 
-Please see `CHANGELOG <CHANGELOG.md>`__ for more information what has
-changed recently.
+Please see `CHANGELOG`_ for more information what
+has changed recently.
 
 Contributing
 ------------
 
-Please see `CONTRIBUTING <CONTRIBUTING.md>`__ for details.
+Please see `CONTRIBUTING`_ for details.
 
 Credits
 -------
 
-Made with love :heart: by luismayta
+*  `author`_
+*  `contributors`_
+
+Made with :heart:️:coffee: and :pizza: by `author`_ and `company`_.
+
+.. Links
+.. _`changelog`: CHANGELOG.rst
+.. _`contributors`: AUTHORS
+.. _`contributing`: CONTRIBUTING.rst
+
+
+.. _`company`: https://github.com/hadenlabs
+.. _`author`: https://github.com/luismayta
 
 .. |Build Status| image:: https://travis-ci.org/luismayta/zsh-docker-machine-aliases.svg
    :target: https://travis-ci.org/luismayta/zsh-docker-machine-aliases
