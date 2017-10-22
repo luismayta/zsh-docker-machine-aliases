@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#
+import os
+import os.path
+import sys
+
 # zsh-docker-machine-aliases documentation build configuration file, created by
 # sphinx-quickstart on Wed May 17 15:38:17 2017.
 #
@@ -12,9 +15,6 @@
 #
 # All configuration values have a default; values that are commented out
 # serve to show the default.
-import os
-import os.path
-import sys
 
 # defined paths
 ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -48,6 +48,7 @@ extensions = [
     'sphinx_autodoc_typehints',
     'sphinxcontrib.plantuml',
     'sphinx.ext.imgmath',
+    'sphinx_paramlinks',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -57,16 +58,7 @@ plantuml = 'java -jar ' + os.path.join(
     '../extras/jar/plantuml.jar',
 )
 
-# The suffix(es) of source filenames.
-# You can specify multiple suffix as a list of string:
-#
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
-source_suffix = ['.rst', '.md']
+source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
